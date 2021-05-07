@@ -1,0 +1,35 @@
+p,
+h1,
+h2,
+a {
+  color: #220080;
+  text-align: center;
+}
+
+/*{
+ 
+    border:seashell solid
+}*/
+body {
+  background-color: #808080;
+}
+.heading {
+  display: flex;
+  justify-content: unset;
+  flex-direction: column;
+  background-color: #00b7ff;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  background: color #b55a3a;
+}
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.media {
+  display: flex;
+  justify-content: flex-end;
+}
